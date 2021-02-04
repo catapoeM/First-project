@@ -2,20 +2,12 @@ package com.catapoem;
 
 import java.io.*;
 
-class Main {
-    public static void main(String[] args) {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-            String readAll(BufferedReader reader) {
-            StringBuilder content = new StringBuilder();
-            String line;
+class Email {
+    
+}
 
-            while ((line = reader.readLine()) != null) {
-                content.append(line);
-                content.append(System.lineSeparator());
-            }
-            return content.toString();
-        }   try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
-           return; readAll(reader);
+class Main {
+    public static void main(String[] args) throws Exception {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         }
     }
-}
